@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jakecyr/bibleapi.git"
+    "url": "git+https://github.com/jakecyr/freebibleapi.git"
   },
   "keywords": [
     "bible",
@@ -17,9 +17,9 @@
   "author": "Jake Cyr",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jakecyr/bibleapi/issues"
+    "url": "https://github.com/jakecyr/freebibleapi/issues"
   },
-  "homepage": "https://github.com/jakecyr/bibleapi#readme",
+  "homepage": "https://github.com/jakecyr/freebibleapi#readme",
   "dependencies": {
     "axios": "^0.21.4",
     "dotenv": "^10.0.0"
