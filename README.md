@@ -108,3 +108,9 @@ const bibleApi = new BibleAPI();
 
 const genesisChapterOneVerseOne: Verse = await bibleApi.getVerse('KJV', 1, 1, 1);
 ```
+
+## Donate
+
+If you like this package and the Free Bible API Service, please think about donating to support server costs and further development on the project.
+
+[Donate Here](https://www.paypal.com/donate?hosted_button_id=939U8RAW63ZZY)
