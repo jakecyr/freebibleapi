@@ -1,6 +1,6 @@
 {
   "name": "freebibleapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NodeJS wrapper for the Free Bible API (freebibleapi.com)",
   "main": "dist/index.js",
   "scripts": {
