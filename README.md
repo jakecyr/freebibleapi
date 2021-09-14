@@ -4,7 +4,7 @@ NodeJS wrapper for the Free Bible API service ([https://freebibleapi.com](https:
 
 ## Installation
 
-Install the library with npm `npm install bibleapi`.
+Install the library with npm `npm install freebibleapi`.
 
 ## Authentication
 
@@ -18,7 +18,7 @@ Install the library with npm `npm install bibleapi`.
 Get a single translation.
 
 ```typescript
-const { BibleAPI } = require('bibleapi');
+const { BibleAPI } = require('freebibleapi');
 
 const bibleApi = new BibleAPI();
 
@@ -30,7 +30,7 @@ const kjvTranslation: Translation = await bibleApi.getTranslation('KJV');
 Get a list of currently supported translations.
 
 ```typescript
-const { BibleAPI } = require('bibleapi');
+const { BibleAPI } = require('freebibleapi');
 
 const bibleApi = new BibleAPI();
 
@@ -42,7 +42,7 @@ const translations: Translation[] = await bibleApi.getTranslations();
 Get a list of all books in a translation.
 
 ```typescript
-const { BibleAPI } = require('bibleapi');
+const { BibleAPI } = require('freebibleapi');
 
 const bibleApi = new BibleAPI();
 
@@ -54,7 +54,7 @@ const books: Book[] = await bibleApi.getBooks('KJV');
 Get a specific book from the Bible for a chosen translation.
 
 ```typescript
-const { BibleAPI } = require('bibleapi');
+const { BibleAPI } = require('freebibleapi');
 
 const bibleApi = new BibleAPI();
 
@@ -66,7 +66,7 @@ const genesis: Book = await bibleApi.getBook('KJV', 1);
 Get all chapters in a book of the Bible
 
 ```typescript
-const { BibleAPI } = require('bibleapi');
+const { BibleAPI } = require('freebibleapi');
 
 const bibleApi = new BibleAPI();
 
@@ -78,7 +78,7 @@ const genesisChapters: Chapter[] = await bibleApi.getChapters('KJV', 1);
 Get a chapter in a book of the Bible
 
 ```typescript
-const { BibleAPI } = require('bibleapi');
+const { BibleAPI } = require('freebibleapi');
 
 const bibleApi = new BibleAPI();
 
@@ -90,7 +90,7 @@ const genesisChapterOne: Chapter = await bibleApi.getBookChapter('KJV', 1, 1);
 Get the verses in a chapter of the Bible
 
 ```typescript
-const { BibleAPI } = require('bibleapi');
+const { BibleAPI } = require('freebibleapi');
 
 const bibleApi = new BibleAPI();
 
@@ -102,7 +102,7 @@ const genesisChapterOneVerses: Verse[] = await bibleApi.getVerses('KJV', 1, 1);
 Get a verses in a chapter of the Bible
 
 ```typescript
-const { BibleAPI } = require('bibleapi');
+const { BibleAPI } = require('freebibleapi');
 
 const bibleApi = new BibleAPI();
 
